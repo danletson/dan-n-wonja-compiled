@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lydian';
-  src: url("lydian-bt-webfont.woff2") format("woff2"), url("lydian-bt-webfont.woff") format("woff");
+  src: url("../assets/lydian-bt-webfont.woff2") format("woff2"), url("../assets/lydian-bt-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 /**
