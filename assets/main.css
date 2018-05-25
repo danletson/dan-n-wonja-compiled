@@ -195,17 +195,19 @@ table {
 
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 .overlay {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: fixed;
   left: 0;
   top: 0;
+  position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
-  max-height: 1024px; }
+  height: 100vh; }
   .overlay:after {
     content: "";
     display: block;
@@ -215,6 +217,10 @@ body {
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.6); }
+  @media screen and (max-width: 800px) {
+    .overlay {
+      height: 1024px;
+      background-attachment: local; } }
 
 .page-wrap {
   position: relative;
