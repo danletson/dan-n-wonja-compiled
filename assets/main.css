@@ -604,6 +604,9 @@ h3 {
   margin-bottom: 1.5rem;
   margin-top: 3rem; }
 
+a:hover {
+  text-decoration: none; }
+
 p {
   font-size: 1.125rem; }
   p a, p a:visited, p a:hover {
